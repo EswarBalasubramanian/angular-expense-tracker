@@ -1,0 +1,18 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side">
+    <mat-list>
+      <a mat-list-item routerLink="/home">Home</a>
+      <a mat-list-item routerLink="/about">About</a>
+      <a mat-list-item routerLink="/contact">Contact</a>
+    </mat-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>My App Title</span>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>
