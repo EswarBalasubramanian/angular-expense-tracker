@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+/* Basic CSS rules for a starting project */
+
+/* Apply box-sizing: border-box to all elements for easier layout control */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margin and padding for all elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set basic body styles */
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure html element takes up 100% of the viewport */
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  /* Add any additional styles as needed */
+}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
